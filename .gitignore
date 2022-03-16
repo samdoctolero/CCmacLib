@@ -1,0 +1,25 @@
+
+*.db
+*.ipch
+*.json
+*.sqlite
+CCmacLib/.vs/CCmacLib/v17/.suo
+CCmacLib/.vs/CMake Overview
+*.ninja
+*.lib
+*.cmake
+*.pdb
+*.obj
+*.bin
+*.exe
+*.check_cache
+*.log
+CCmacLib/out/build/x64-debug/.ninja_deps
+CCmacLib/out/build/x64-debug/.ninja_log
+CCmacLib/out/build/x64-debug/CMakeCache.txt
+CCmacLib/out/build/x64-debug/CMakeFiles/3.22.22011901-MSVC_2/CompilerIdC/CMakeCCompilerId.c
+CCmacLib/out/build/x64-debug/CMakeFiles/3.22.22011901-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+CCmacLib/out/build/x64-debug/CMakeFiles/ShowIncludes/foo.h
+CCmacLib/out/build/x64-debug/CMakeFiles/ShowIncludes/main.c
+CCmacLib/out/build/x64-debug/CMakeFiles/TargetDirectories.txt
+CCmacLib/out/build/x64-debug/VSInheritEnvironments.txt
