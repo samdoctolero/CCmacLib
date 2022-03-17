@@ -3,6 +3,7 @@
 
 #include "ITrainer.h"
 #include "ITrainerFactoryArg.h"
+#include "ICmac.h"
 #include <memory>
 
 namespace CCmacLib
@@ -10,7 +11,7 @@ namespace CCmacLib
 	class TrainerFactory
 	{
 	public:
-		static std::shared_ptr<ITrainer> CreateTrainer(ITrainerFactoryArg& arg);
+		static std::shared_ptr<ITrainer> CreateTrainer(ICmac& cmac, ITrainerFactoryArg& arg);
 	};
 }
 
