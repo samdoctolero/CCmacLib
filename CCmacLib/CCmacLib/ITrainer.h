@@ -5,17 +5,17 @@
 
 namespace CCmacLib
 {
-	class ITrainerArg
+	class ITrainerInput
 	{
 	public:
-		virtual ~ITrainerArg(){}
+		virtual ~ITrainerInput(){}
 	};
 
 	class ITrainer
 	{
 	public:
 		virtual ~ITrainer(){}
-		virtual void Train(ICmac& cmac, ITrainerArg& arg) = 0;
+		virtual void Train(ICmac& cmac, ITrainerInput& arg) = 0;
 	};
 }
 

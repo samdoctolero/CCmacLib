@@ -5,11 +5,17 @@
 
 namespace CCmacLib
 {
+	class ICmacInput
+	{
+	public:
+		virtual ~ICmacInput(){}
+	};
+
 	class ICmac
 	{
 	public:
 		virtual ~ICmac(){}
-		virtual std::vector<double> Predict(std::vector<double> states) = 0;
+		virtual std::vector<double> Predict(ICmacInput& input) = 0;
 	};
 }
 

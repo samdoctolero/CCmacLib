@@ -4,6 +4,7 @@
 #include "ITrainer.h"
 #include "ITrainerFactoryArg.h"
 #include "ICmac.h"
+#include "Enumerations.h"
 #include <memory>
 
 namespace CCmacLib
@@ -11,7 +12,7 @@ namespace CCmacLib
 	class TrainerFactory
 	{
 	public:
-		static std::shared_ptr<ITrainer> CreateTrainer(ICmac& cmac, ITrainerFactoryArg& arg);
+		static std::shared_ptr<ITrainer> CreateTrainer(ICmac& cmac, TrainerType type, ITrainerFactoryArg& arg);
 	};
 }
 

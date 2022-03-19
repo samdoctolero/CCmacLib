@@ -24,7 +24,7 @@ namespace CCmacLib
 		~GenericCmac();
 
 	public: // implement ICmac virtual methods
-		std::vector<double> Predict(std::vector<double> states) override;
+		std::vector<double> Predict(ICmacInput& input) override;
 	};
 }
 

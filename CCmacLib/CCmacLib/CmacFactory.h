@@ -3,6 +3,7 @@
 
 #include "ICmac.h"
 #include "ICmacFactoryArg.h"
+#include "Enumerations.h"
 #include <memory>
 
 namespace CCmacLib
@@ -10,7 +11,7 @@ namespace CCmacLib
 	class CmacFactory
 	{
 	public:
-		static std::shared_ptr<ICmac> CreateCmac(ICmacFactoryArg& arg);
+		static std::shared_ptr<ICmac> CreateCmac(CmacType type, ICmacFactoryArg& arg);
 	};
 }
 

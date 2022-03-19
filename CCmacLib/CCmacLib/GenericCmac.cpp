@@ -15,7 +15,7 @@ CCmacLib::GenericCmac::~GenericCmac()
 {
 }
 
-std::vector<double> CCmacLib::GenericCmac::Predict(std::vector<double> states)
+std::vector<double> CCmacLib::GenericCmac::Predict(ICmacInput& input)
 {
 	return std::vector<double>(this->mNumOutputs, 0.0);
 }
